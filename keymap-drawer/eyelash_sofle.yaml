@@ -57,11 +57,11 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: F14, h: '$$mdi:apple-keyboard-option$$'}
-  - layer1
+  - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: F15, h: '2'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Meh+I, h: layer1}
+  - {t: '$$mdi:keyboard-return$$', h: layer1}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
@@ -125,8 +125,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
