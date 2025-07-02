@@ -24,6 +24,8 @@
     trigger-period-ms = <16>;
 };
 
+&mt { flavor = "balanced"; };
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -62,7 +64,7 @@
 &kp C_MUTE     &kp LEFT_WIN  &kp LEFT_ALT  &mt RIGHT_ALT F14  &lt 1 ENTER         &lt 2 F15    &kp ENTER        &lt 2 LS(LC(LA(I)))  &lt 1 ENTER          &kp SPACE  &kp RIGHT_ALT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
             display-name = "LAYER0";
         };
 
@@ -76,7 +78,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         layer_2 {
