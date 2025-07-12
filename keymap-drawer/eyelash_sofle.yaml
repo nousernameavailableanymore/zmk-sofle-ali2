@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   - LEFT WIN
-  - $$mdi:apple-keyboard-option$$
+  - {t: V, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F14, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: F15, h: '2'}
