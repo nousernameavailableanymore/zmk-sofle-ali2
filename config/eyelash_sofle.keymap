@@ -24,7 +24,7 @@
     trigger-period-ms = <16>;
 };
 
-};
+&mt { flavor = "balanced"; };
 
 / {
 
