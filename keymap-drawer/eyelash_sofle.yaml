@@ -107,7 +107,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - UNDO
-  - CUT
+  - {t: 'Sft+]', s: 'Sft+}'}
   - F13
   - PASTE
   - {t: '$$mdi:transfer$$', type: trans}
