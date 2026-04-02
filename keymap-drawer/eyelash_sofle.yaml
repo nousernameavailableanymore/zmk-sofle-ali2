@@ -232,7 +232,7 @@ layers:
   - Alt+Ctl+H
   - Alt+Ctl+J
   - Alt+Ctl+K
-  - Alt+Ctl+END
+  - Alt+Ctl+L
   - Alt+Ctl+P
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
