@@ -216,10 +216,10 @@ layers:
   - Meh+R
   - Meh+T
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+Z
-  - Meh+U
-  - Meh+I
-  - Meh+O
+  - Ctl+Alt+Z
+  - Alt+Ctl+U
+  - Alt+Ctl+I
+  - Alt+Ctl+O
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -229,13 +229,13 @@ layers:
   - Meh+F
   - Meh+G
   - {t: '$$mdi:transfer$$', type: trans}
-  - Meh+H
-  - Meh+J
-  - Meh+K
-  - Meh+END
-  - Meh+P
+  - Alt+Ctl+H
+  - Alt+Ctl+J
+  - Alt+Ctl+K
+  - Alt+Ctl+END
+  - Alt+Ctl+P
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,9 +255,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Meh+Y, type: held alternate}
-  - Meh+Q
-  - Meh+X
+  - {t: Alt+Ctl+Y, type: held alternate}
+  - Alt+Ctl+Q
+  - Alt+Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
