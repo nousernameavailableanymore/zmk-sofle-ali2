@@ -2,17 +2,17 @@ layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
-  - {t: '1', h: Alt+1}
-  - {t: '2', h: Alt+2}
-  - {t: '3', h: Alt+3}
-  - {t: '4', h: Alt+4}
-  - {t: '5', h: Alt+5, s: '%'}
+  - {t: '1', h: Meh+1}
+  - {t: '2', h: Meh+2}
+  - {t: '3', h: Meh+3}
+  - {t: '4', h: Meh+4}
+  - {t: '5', h: Meh+5, s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', h: Alt+6}
-  - {t: '7', h: Alt+7, s: '&'}
-  - {t: '8', h: Alt+8, s: '*'}
-  - {t: '9', h: Alt+9, s: (}
-  - {t: '0', h: Alt+0, s: )}
+  - {t: '6', h: Meh+6}
+  - {t: '7', h: Meh+7, s: '&'}
+  - {t: '8', h: Meh+8, s: '*'}
+  - {t: '9', h: Meh+9, s: (}
+  - {t: '0', h: Meh+0, s: )}
   - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
