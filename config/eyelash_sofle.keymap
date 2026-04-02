@@ -67,11 +67,11 @@
 
         layer0 {
             bindings = <
-&kp ESC        &kp N1        &kp N2              &kp N3     &kp N4                   &kp N5       &mmv MOVE_UP     &kp N6               &kp N7                    &kp N8     &kp N9         &kp N0      &kp MINUS
-&kp TAB        &kp Q         &kp W               &kp E      &kp R                    &kp T        &mmv MOVE_DOWN   &kp Y                &kp U                     &kp I      &kp O          &kp SEMI    &kp LBKT
-&kp BACKSPACE  &kp A         &kp S               &kp D      &homerow LEFT_CONTROL F  &kp G        &mmv MOVE_LEFT   &kp H                &homerow RIGHT_CONTROL J  &kp K      &kp L          &kp P       &kp APOS
-&kp LSHFT      &kp Z         &kp X               &kp C      &kp V                    &kp B        &mmv MOVE_RIGHT  &kp N                &kp M                     &kp COMMA  &kp DOT        &kp FSLH    &kp RIGHT_SHIFT
-&kp DEL        &kp LEFT_WIN  &mt LEFT_ALT LG(V)  &lt 3 F14  &lt 1 ENTER              &lt 2 F15    &mkp LCLK        &lt 2 LS(LC(LA(I)))  &lt 1 ENTER               &kp SPACE  &kp RIGHT_ALT  &kp DELETE
+&kp ESC        &mt LA(NUMBER_1) NUMBER_1  &mt LA(NUMBER_2) NUMBER_2  &mt LA(NUMBER_3) NUMBER_3  &mt LA(N4) NUMBER_4      &mt LA(N5) N5    &mmv MOVE_UP     &mt LA(NUMBER_6) NUMBER_6  &mt LA(N7) N7             &mt LA(N8) N8  &mt LA(N9) N9  &mt LA(N0) N0  &kp MINUS
+&kp TAB        &kp Q                      &kp W                      &kp E                      &kp R                    &kp T            &mmv MOVE_DOWN   &kp Y                      &kp U                     &kp I          &kp O          &kp SEMI       &kp LBKT
+&kp BACKSPACE  &kp A                      &kp S                      &kp D                      &homerow LEFT_CONTROL F  &kp G            &mmv MOVE_LEFT   &kp H                      &homerow RIGHT_CONTROL J  &kp K          &kp L          &kp P          &kp APOS
+&kp LSHFT      &kp Z                      &kp X                      &kp C                      &kp V                    &kp B            &mmv MOVE_RIGHT  &kp N                      &kp M                     &kp COMMA      &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
+&kp DEL        &kp LEFT_WIN               &mt LEFT_ALT LG(V)         &lt 3 F14                  &lt 1 ENTER              &lt 2 F15        &mkp LCLK        &lt 2 LS(LC(LA(I)))        &lt 1 ENTER               &kp SPACE      &kp RIGHT_ALT  &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
