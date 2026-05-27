@@ -132,11 +132,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+1
+  - Alt+2
+  - Alt+3
+  - Alt+4
+  - Alt+5
   - Ctl+HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -153,7 +153,7 @@ layers:
   - Ctl+END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - Alt+I
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,12 +164,12 @@ layers:
   - AltGr+F
   - AltGr+G
   - Alt+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - Alt+J
+  - Alt+K
+  - Alt+L
+  - Sft+Alt+F
   - END
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
