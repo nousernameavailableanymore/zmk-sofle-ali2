@@ -93,11 +93,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans         &trans         &trans             &trans              &trans     &bootloader
-&trans  &kp RA(Q)         &trans            &kp RA(E)         &trans            &trans              &kp LC(END)    &trans         &kp LC(LG(U))  &kp LC(LG(I))      &kp LC(LG(O))       &trans     &trans
-&trans  &trans            &kp GREATER_THAN  &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LC(LG(H))  &kp LG(LC(J))  &kp LC(LG(K))      &kp LC(LG(L))       &kp LA(F)  &kp CARET
-&trans  &trans            &kp PIPE          &kp RA(L)         &kp SINGLE_QUOTE  &trans              &kp LA(RIGHT)  &trans         &kp LC(LG(M))  &kp LC(LG(COMMA))  &kp LC(LG(PERIOD))  &trans     &kp MINUS
-&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans         &trans         &trans             &trans              &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans     &trans         &trans          &trans     &bootloader
+&trans  &kp RA(Q)         &trans            &kp RA(E)         &trans            &trans              &kp LC(END)    &trans     &kp LA(U)  &kp LA(I)      &kp LA(O)       &trans     &trans
+&trans  &trans            &kp GREATER_THAN  &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LA(H)  &kp LA(J)  &kp LA(K)      &kp LA(L)       &kp LA(F)  &kp CARET
+&trans  &trans            &kp PIPE          &kp RA(L)         &kp SINGLE_QUOTE  &trans              &kp LA(RIGHT)  &trans     &kp LA(M)  &kp LA(COMMA)  &kp LA(PERIOD)  &trans     &kp MINUS
+&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans     &trans     &trans         &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
