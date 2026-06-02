@@ -82,7 +82,7 @@
             bindings = <
 &kp GRAVE   &kp F1      &kp F2                 &kp F3              &kp F4             &kp F5           &msc SCRL_UP    &kp F6     &kp F7            &kp F8    &kp F9         &kp F10  &kp F11
 &trans      &kp INS     &kp RIGHT_BRACE        &kp K_CONTEXT_MENU  &kp RIGHT_BRACKET  &trans           &msc SCRL_DOWN  &kp PG_UP  &kp LEFT_BRACKET  &kp UP    &kp SEMICOLON  &kp N0   &kp F12
-&kp DEL     &kp F17     &kp MINUS              &kp F18             &kp F19            &kp BACKSLASH    &kp LA(LEFT)    &kp PG_DN  &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &trans
+&kp DEL     &kp F17     &kp MINUS              &kp F18             &kp F19            &kp BACKSLASH    &kp LA(LEFT)    &kp HOME   &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &kp END
 &trans      &kp K_UNDO  &kp LS(RIGHT_BRACKET)  &kp F13             &kp K_PASTE        &trans           &kp LA(RIGHT)   &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
 &kp C_MUTE  &trans      &trans                 &trans              &trans             &trans           &mkp RCLK       &trans     &trans            &trans    &trans         &trans
             >;
@@ -93,11 +93,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans    &trans            &trans     &trans     &trans         &bootloader
-&trans  &kp RA(Q)         &trans            &kp RA(E)         &trans            &trans              &kp LC(END)    &trans    &kp LEFT_BRACKET  &kp LA(I)  &trans     &trans         &trans
-&trans  &trans            &kp GREATER_THAN  &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp HOME  &kp LA(J)         &kp LA(K)  &kp LA(L)  &kp LS(LA(F))  &kp END
-&trans  &trans            &kp PIPE          &kp RA(L)         &kp SINGLE_QUOTE  &trans              &kp LA(RIGHT)  &trans    &trans            &trans     &trans     &trans         &soft_off
-&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans    &trans            &trans     &trans     &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans         &trans         &trans             &trans              &trans     &bootloader
+&trans  &kp RA(Q)         &trans            &kp RA(E)         &trans            &trans              &kp LC(END)    &trans         &kp LC(LG(U))  &kp LC(LG(I))      &kp LC(LG(O))       &trans     &trans
+&trans  &trans            &kp GREATER_THAN  &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LC(LG(H))  &kp LG(LC(J))  &kp LC(LG(K))      &kp LC(LG(L))       &kp LA(F)  &kp CARET
+&trans  &trans            &kp PIPE          &kp RA(L)         &kp SINGLE_QUOTE  &trans              &kp LA(RIGHT)  &trans         &kp LC(LG(M))  &kp LC(LG(COMMA))  &kp LC(LG(PERIOD))  &trans     &kp MINUS
+&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans         &trans         &trans             &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
