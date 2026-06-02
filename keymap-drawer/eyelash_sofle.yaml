@@ -168,7 +168,7 @@ layers:
   - Alt+J
   - Alt+K
   - Alt+L
-  - Alt+F
+  - Alt+Sft+F
   - Ctl+Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
