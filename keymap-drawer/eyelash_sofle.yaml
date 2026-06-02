@@ -152,9 +152,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+END
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Gui+U
-  - Ctl+Gui+I
-  - Ctl+Gui+O
+  - Alt+U
+  - Alt+I
+  - Alt+O
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,10 +164,10 @@ layers:
   - AltGr+F
   - AltGr+G
   - Alt+$$mdi:arrow-left-bold$$
-  - Ctl+Gui+H
-  - Gui+Ctl+J
-  - Ctl+Gui+K
-  - Ctl+Gui+L
+  - Alt+H
+  - Alt+J
+  - Alt+K
+  - Alt+L
   - Alt+F
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
@@ -178,9 +178,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Gui+M
-  - {t: 'Ctl+Gui+,', s: Ctl+Gui+<}
-  - Ctl+Gui+.
+  - Alt+M
+  - {t: 'Alt+,', s: Alt+<}
+  - Alt+.
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
