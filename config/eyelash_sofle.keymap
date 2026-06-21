@@ -62,6 +62,29 @@
         };
     };
 
+    macros {
+        spitze_Klammern: spitze_Klammern {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp GT>;
+            label = "SPITZE_KLAMMERN";
+        };
+
+        geschweifte_Klammern: geschweifte_Klammern {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBRC &kp RBRC>;
+            label = "GESCHWEIFTE_KLAMMERN";
+        };
+
+        eckige_Klammern: eckige_Klammern {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp RBKT>;
+            label = "ECKIGE_KLAMMERN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -93,11 +116,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans     &trans         &trans          &trans         &trans
-&trans  &kp RA(Q)         &trans            &kp RA(E)         &trans            &trans              &kp LC(END)    &trans     &kp LA(U)  &kp LA(I)      &kp LA(O)       &trans         &trans
-&trans  &trans            &kp GREATER_THAN  &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LA(H)  &kp LA(J)  &kp LA(K)      &kp LA(L)       &kp LA(LS(F))  &kp LC(INSERT)
-&trans  &trans            &kp PIPE          &kp RA(L)         &kp SINGLE_QUOTE  &trans              &kp LA(RIGHT)  &kp LA(N)  &kp LA(M)  &kp LA(COMMA)  &kp LA(PERIOD)  &trans         &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans     &trans     &trans         &trans          &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans         &trans         &trans          &trans         &trans
+&trans  &kp RA(Q)         &trans                 &kp RA(E)         &trans            &trans              &kp LC(END)    &trans     &kp LA(U)      &kp LA(LG(I))  &kp LA(O)       &trans         &trans
+&trans  &trans            &kp GREATER_THAN       &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LA(H)  &kp LA(LG(J))  &kp LA(LG(K))  &kp LA(LG(L))   &kp LA(LS(F))  &kp LC(INSERT)
+&trans  &kp PIPE          &geschweifte_Klammern  &spitze_Klammern  &eckige_Klammern  &trans              &kp LA(RIGHT)  &kp LA(N)  &kp LA(M)      &kp LA(COMMA)  &kp LA(PERIOD)  &trans         &trans
+&trans  &trans            &trans                 &trans            &trans            &trans              &mkp RCLK      &trans     &trans         &trans         &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
