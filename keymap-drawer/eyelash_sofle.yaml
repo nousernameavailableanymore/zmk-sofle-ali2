@@ -153,7 +153,7 @@ layers:
   - Ctl+END
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+U
-  - Alt+I
+  - Alt+Gui+I
   - Alt+O
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -165,16 +165,16 @@ layers:
   - AltGr+G
   - Alt+$$mdi:arrow-left-bold$$
   - Alt+H
-  - Alt+J
-  - Alt+K
-  - Alt+L
+  - Alt+Gui+J
+  - Alt+Gui+K
+  - Alt+Gui+L
   - Alt+Sft+F
   - Ctl+Ins
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '|'
-  - AltGr+L
-  - {t: '''', s: '"'}
+  - '&geschweifte_Klammern'
+  - '&spitze_Klammern'
+  - '&eckige_Klammern'
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-right-bold$$
   - Alt+N
