@@ -66,21 +66,21 @@
         spitze_Klammern: spitze_Klammern {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NON_US_BACKSLASH &kp LS(NON_US_BACKSLASH)>;
+            bindings = <&kp NON_US_BACKSLASH &kp LS(NON_US_BACKSLASH) &kp LEFT>;
             label = "SPITZE_KLAMMERN";
         };
 
         geschweifte_Klammern: geschweifte_Klammern {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBRC &kp RBRC>;
+            bindings = <&kp RA(N7) &kp RA(N0) &kp LEFT_ARROW>;
             label = "GESCHWEIFTE_KLAMMERN";
         };
 
         eckige_Klammern: eckige_Klammern {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LBKT &kp RBKT>;
+            bindings = <&kp RA(N8) &kp RA(N9) &kp LEFT>;
             label = "ECKIGE_KLAMMERN";
         };
     };
@@ -103,11 +103,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1      &kp F2                 &kp F3              &kp F4             &kp F5           &msc SCRL_UP    &kp F6     &kp F7            &kp F8    &kp F9         &kp F10  &kp F11
-&trans      &kp INS     &kp RIGHT_BRACE        &kp K_CONTEXT_MENU  &kp RIGHT_BRACKET  &trans           &msc SCRL_DOWN  &kp PG_UP  &kp LEFT_BRACKET  &kp UP    &kp SEMICOLON  &kp N0   &kp F12
-&kp DEL     &kp F17     &kp MINUS              &kp F18             &kp F19            &kp BACKSLASH    &kp LA(LEFT)    &kp HOME   &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &kp END
-&trans      &kp K_UNDO  &kp LS(RIGHT_BRACKET)  &kp F13             &kp K_PASTE        &trans           &kp LA(RIGHT)   &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
-&kp C_MUTE  &trans      &trans                 &trans              &trans             &trans           &mkp RCLK       &trans     &trans            &trans    &trans         &trans
+&kp GRAVE   &kp F1                 &kp F2                 &kp F3              &kp F4             &kp F5           &msc SCRL_UP    &kp F6     &kp F7            &kp F8    &kp F9         &kp F10  &kp F11
+&trans      &kp INS                &kp RIGHT_BRACE        &kp K_CONTEXT_MENU  &kp RIGHT_BRACKET  &trans           &msc SCRL_DOWN  &kp PG_UP  &kp LEFT_BRACKET  &kp UP    &kp SEMICOLON  &kp N0   &kp F12
+&kp DEL     &kp F17                &kp MINUS              &kp F18             &kp F19            &kp BACKSLASH    &kp LA(LEFT)    &kp HOME   &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &kp END
+&trans      &kp K_UNDO             &kp LS(RIGHT_BRACKET)  &kp RA(D)           &kp RA(F)          &kp RA(G)        &kp LA(RIGHT)   &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
+&kp C_MUTE  &geschweifte_Klammern  &spitze_Klammern       &eckige_Klammern    &trans             &trans           &mkp RCLK       &trans     &trans            &trans    &trans         &trans
             >;
 
             display-name = "layer1";
@@ -116,11 +116,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans         &trans         &trans          &trans         &trans
-&trans  &kp RA(Q)         &trans                 &kp RA(E)         &trans            &trans              &kp LC(END)    &trans     &kp LA(U)      &kp LA(LG(I))  &kp LA(O)       &trans         &trans
-&trans  &trans            &kp GREATER_THAN       &kp RA(D)         &kp RA(F)         &kp RA(G)           &kp LA(LEFT)   &kp LA(H)  &kp LA(LG(J))  &kp LA(LG(K))  &kp LA(LG(L))   &kp LA(LS(F))  &kp LC(INSERT)
-&trans  &kp PIPE          &geschweifte_Klammern  &spitze_Klammern  &eckige_Klammern  &trans              &kp LA(RIGHT)  &kp LA(N)  &kp LA(M)      &kp LA(COMMA)  &kp LA(PERIOD)  &trans         &trans
-&trans  &trans            &trans                 &trans            &trans            &trans              &mkp RCLK      &trans     &trans         &trans         &trans          &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans         &trans         &trans          &trans         &trans
+&trans  &kp RA(Q)         &trans            &kp RA(K_APP)     &trans            &trans              &kp LC(END)    &trans     &kp LA(U)      &kp LA(LG(I))  &kp LA(O)       &trans         &trans
+&trans  &kp LA(LG(A))     &kp LA(LG(S))     &kp LA(LG(D))     &kp LA(LG(F))     &kp LA(LG(G))       &kp LA(LEFT)   &kp LA(H)  &kp LA(LG(J))  &kp LA(LG(K))  &kp LA(LG(L))   &kp LA(LS(F))  &kp LC(INSERT)
+&trans  &trans            &trans            &kp F13           &trans            &trans              &kp LA(RIGHT)  &kp LA(N)  &kp LA(M)      &kp LA(COMMA)  &kp LA(PERIOD)  &trans         &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans     &trans         &trans         &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
