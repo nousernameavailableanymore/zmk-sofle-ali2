@@ -108,9 +108,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - UNDO
   - {t: 'Sft+]', s: 'Sft+}'}
-  - F13
-  - PASTE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+D
+  - AltGr+F
+  - AltGr+G
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F16
@@ -119,9 +119,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&geschweifte_Klammern'
+  - '&spitze_Klammern'
+  - '&eckige_Klammern'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+Q
   - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+E
+  - AltGr+APP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+END
@@ -158,11 +158,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '>'
-  - AltGr+D
-  - AltGr+F
-  - AltGr+G
+  - Alt+Gui+A
+  - Alt+Gui+S
+  - Alt+Gui+D
+  - Alt+Gui+F
+  - Alt+Gui+G
   - Alt+$$mdi:arrow-left-bold$$
   - Alt+H
   - Alt+Gui+J
@@ -171,10 +171,10 @@ layers:
   - Alt+Sft+F
   - Ctl+Ins
   - {t: '$$mdi:transfer$$', type: trans}
-  - '|'
-  - '&geschweifte_Klammern'
-  - '&spitze_Klammern'
-  - '&eckige_Klammern'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F13
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:arrow-right-bold$$
   - Alt+N
