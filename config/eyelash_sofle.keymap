@@ -45,13 +45,6 @@
         flavor = "balanced";
     };
 
-    kopieren: kopieren {
-        compatible = "zmk,behavior-tap-dance";
-        label = "KOPIEREN";
-        #binding-cells = <0>;
-        bindings = <&kp LC(C)>, <&mo 3>;
-    };
-
     behaviors {
     };
 
