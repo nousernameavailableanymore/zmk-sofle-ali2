@@ -127,7 +127,7 @@
 &kp GRAVE        &kp F1                 &kp F2                 &kp F3              &kp F4             &kp F5           &msc SCRL_UP    &kp F6     &kp F7            &kp F8    &kp F9         &kp F10  &kp F11
 &trans           &kp INS                &kp RIGHT_BRACE        &kp K_CONTEXT_MENU  &kp RIGHT_BRACKET  &trans           &msc SCRL_DOWN  &kp PG_UP  &kp LEFT_BRACKET  &kp UP    &kp SEMICOLON  &kp N0   &kp F12
 &kp DEL          &kp F17                &kp MINUS              &runde_klammern     &Hochkommas        &kp BACKSLASH    &kp LA(LEFT)    &kp HOME   &kp LEFT          &kp DOWN  &kp RIGHT      &kp F20  &kp END
-&runde_klammern  &trans                 &kp LS(RIGHT_BRACKET)  &kp RA(D)           &kp RA(F)          &kp RA(G)        &kp LA(RIGHT)   &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
+&runde_klammern  &Hochkommas            &kp LS(RIGHT_BRACKET)  &kp RA(D)           &kp RA(F)          &kp RA(G)        &kp LA(RIGHT)   &trans     &kp F16           &kp F22   &kp F21        &trans   &trans
 &kp C_MUTE       &geschweifte_Klammern  &spitze_Klammern       &eckige_Klammern    &trans             &trans           &mkp RCLK       &trans     &trans            &trans    &trans         &trans
             >;
 
