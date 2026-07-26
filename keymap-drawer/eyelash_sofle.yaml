@@ -56,9 +56,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - LEFT WIN
   - {t: V, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: COPY, h: '3'}
+  - {t: Ctl+C, h: '3'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
-  - {t: PASTE, h: '2'}
+  - {t: Ctl+V, h: '2'}
   - $$mdi:mouse-left-click-outline$$
   - {t: Meh+I, h: '2'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
@@ -95,8 +95,8 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - F17
   - {t: '-', s: _}
-  - F18
-  - F19
+  - '&runde_klammern'
+  - '&Hochkommas'
   - {t: \, s: '|'}
   - Alt+$$mdi:arrow-left-bold$$
   - HOME
