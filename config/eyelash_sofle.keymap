@@ -94,7 +94,7 @@
 &kp TAB        &kp Q                              &kp W                              &kp E                              &kp R                        &kp T                    &mmv MOVE_DOWN   &kp Y                              &kp U                     &kp I                  &kp O                  &kp SEMI               &kp LBKT
 &kp BACKSPACE  &kp A                              &kp S                              &kp D                              &homerow LEFT_CONTROL F      &kp G                    &mmv MOVE_LEFT   &kp H                              &homerow RIGHT_CONTROL J  &kp K                  &kp L                  &kp P                  &kp APOS
 &kp LSHFT      &kp Z                              &kp X                              &kp C                              &kp V                        &kp B                    &mmv MOVE_RIGHT  &kp N                              &kp M                     &kp COMMA              &kp DOT                &kp FSLH               &kp RIGHT_SHIFT
-&kp DEL        &kp LEFT_WIN                       &mt LEFT_ALT LG(V)                 &lt 3 F14                          &lt 1 ENTER                  &lt 2 F15                &mkp LCLK        &lt 2 LS(LC(LA(I)))                &lt 1 ENTER               &kp SPACE              &kp RIGHT_ALT          &kp DELETE
+&kp DEL        &kp LEFT_WIN                       &mt LEFT_ALT LG(V)                 &lt 3 K_COPY                       &lt 1 ENTER                  &lt 2 K_PASTE            &mkp LCLK        &lt 2 LS(LC(LA(I)))                &lt 1 ENTER               &kp SPACE              &kp RIGHT_ALT          &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -116,11 +116,11 @@
 
         layer_2 {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans     &trans         &trans         &trans          &trans         &trans
-&trans  &kp RA(Q)         &trans            &kp RA(K_APP)     &trans            &trans              &kp LC(END)    &trans     &kp LA(U)      &kp LA(LG(I))  &kp LA(O)       &trans         &trans
-&trans  &kp LA(LG(A))     &kp LA(LG(S))     &kp LA(LG(D))     &kp LA(LG(F))     &kp LA(LG(G))       &kp LA(LEFT)   &kp LA(H)  &kp LA(LG(J))  &kp LA(LG(K))  &kp LA(LG(L))   &kp LA(LS(F))  &kp LC(INSERT)
-&trans  &trans            &trans            &kp F13           &trans            &trans              &kp LA(RIGHT)  &kp LA(N)  &kp LA(M)      &kp LA(COMMA)  &kp LA(PERIOD)  &trans         &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans     &trans         &trans         &trans          &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LC(HOME)   &trans         &trans         &trans             &trans              &trans         &trans
+&trans  &kp RA(Q)         &trans            &kp RA(K_APP)     &trans            &trans              &kp LC(END)    &trans         &kp LA(LG(U))  &kp LA(LG(I))      &kp LA(LG(O))       &trans         &trans
+&trans  &kp LA(LG(A))     &kp LA(LG(S))     &kp LA(LG(D))     &kp LA(LG(F))     &kp LA(LG(G))       &kp LA(LEFT)   &kp LA(LG(H))  &kp LA(LG(J))  &kp LA(LG(K))      &kp LA(LG(L))       &kp LA(LG(P))  &kp LC(INSERT)
+&trans  &trans            &trans            &kp LA(F4)        &trans            &trans              &kp LA(RIGHT)  &kp LA(LG(N))  &kp LA(LG(M))  &kp LA(LG(COMMA))  &kp LA(LG(PERIOD))  &trans         &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &mkp RCLK      &trans         &trans         &trans             &trans              &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -129,8 +129,8 @@
         layer_3 {
             bindings = <
 &bt BT_CLR      &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4         &trans  &trans         &trans         &trans         &trans         &trans         &trans
-&trans          &trans             &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))  &kp LS(LA(LC(R)))  &kp LS(LA(LC(T)))    &trans  &kp LC(LA(Z))  &kp LA(LC(U))  &kp LA(LC(Y))  &kp LA(LC(O))  &trans         &trans
-&trans          &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &kp LS(LA(LC(F)))  &kp LS(LA(LC(G)))    &trans  &kp LA(LC(H))  &kp LA(LC(X))  &kp LA(LC(V))  &kp LA(LC(B))  &kp LA(LC(P))  &trans
+&trans          &trans             &kp LS(LA(LC(W)))  &kp LS(LA(LC(E)))  &kp LS(LA(LC(R)))  &kp LS(LA(LC(T)))    &trans  &kp LC(LA(Z))  &kp LA(LC(U))  &kp LA(LC(I))  &kp LA(LC(O))  &trans         &trans
+&trans          &kp LS(LA(LC(A)))  &kp LS(LA(LC(S)))  &kp LS(LA(LC(D)))  &kp LS(LA(LC(F)))  &kp LS(LA(LC(G)))    &trans  &kp LA(LC(H))  &kp LA(LC(J))  &kp LA(LC(K))  &kp LA(LC(L))  &kp LA(LC(P))  &trans
 &kp LEFT_SHIFT  &trans             &trans             &trans             &trans             &trans               &trans  &trans         &trans         &trans         &trans         &trans         &trans
 &trans          &trans             &trans             &trans             &trans             &trans               &trans  &kp LA(LC(Y))  &kp LA(LC(Q))  &kp LA(LC(X))  &trans         &trans
             >;
