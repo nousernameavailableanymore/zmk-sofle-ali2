@@ -109,7 +109,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+]', s: 'Sft+}'}
   - '|'
-  - Sft+F
+  - Sft+|
   - AltGr+|
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
