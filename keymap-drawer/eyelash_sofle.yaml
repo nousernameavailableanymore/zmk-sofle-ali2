@@ -56,7 +56,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - LEFT WIN
   - {t: V, h: '$$mdi:apple-keyboard-option$$'}
-  - '&kopieren'
+  - {t: Ctl+C, h: '3'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: Ctl+V, h: '2'}
   - $$mdi:mouse-left-click-outline$$
@@ -105,12 +105,12 @@ layers:
   - $$mdi:arrow-right-bold$$
   - F20
   - END
-  - '&runde_klammern'
-  - '&Hochkommas'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+]', s: 'Sft+}'}
-  - AltGr+D
-  - AltGr+F
-  - AltGr+G
+  - '|'
+  - Sft+F
+  - AltGr+|
   - Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F16
@@ -251,11 +251,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Alt+Ctl+Y, type: held}
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+Ctl+Y, type: held alternate}
   - Alt+Ctl+Q
   - Alt+Ctl+X
   - {t: '$$mdi:transfer$$', type: trans}
