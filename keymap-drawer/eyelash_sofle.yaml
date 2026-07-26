@@ -106,7 +106,7 @@ layers:
   - F20
   - END
   - '&runde_klammern'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&Hochkommas'
   - {t: 'Sft+]', s: 'Sft+}'}
   - AltGr+D
   - AltGr+F
