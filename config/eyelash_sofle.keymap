@@ -152,11 +152,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &kp E   &trans          &trans    &trans  &trans  &trans     &kp I      &trans  &trans  &trans
-&trans  &trans  &kp S   &kp D   &kp F           &trans    &trans  &trans  &kp J      &kp K      &kp L   &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp ENTER  &kp SPACE  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans          &msc SCRL_UP    &trans           &trans    &trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans          &trans          &kp LEFT_SHIFT   &trans    &trans  &trans  &mkp LCLK       &mkp RCLK       &trans           &trans
             >;
         };
     };
